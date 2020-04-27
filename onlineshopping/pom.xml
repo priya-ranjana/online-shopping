@@ -15,6 +15,12 @@
 	</properties>
 	<dependencies>
 
+		<dependency>
+			<groupId>net.pr</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- JUNIT -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -30,14 +36,14 @@
 			<version>${javaee.version}</version>
 			<scope>provided</scope>
 		</dependency>
-		
+
 		<!-- spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
 		<!-- jstl -->
 		<dependency>
 			<groupId>jstl</groupId>
